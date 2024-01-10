@@ -62,9 +62,9 @@ gcc (Linux, MinGW)
   必要ならば urg_library-X.X.X/Makefile の PREFIX を編集して
   インストール先を変更します。
 
-  !!! 現状こうなっているので、他の場所にしたければ、変更して下さい。
+   !! 現状こうなっているので、他の場所にしたければ、変更して下さい。
 PREFIX = /usr/local
-#PREFIX = /mingw
+ PREFIX = /mingw
 
   コンパイルとインストールを行います。
 
@@ -74,3 +74,4 @@ PREFIX = /usr/local
   ライブラリの使い方は、urg-library-X.X.X/samples/ 中の Makefile をご覧下さい。
 
   !!! ライブラリの使い方は、もう少しちゃんと書きたい。
+ 
